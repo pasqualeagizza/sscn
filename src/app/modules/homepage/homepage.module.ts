@@ -9,7 +9,7 @@ import { ContainerComponent } from './container/container.component';
   ],
   imports: [
     CommonModule,
-    HomepageRoutingModule,
+    HomepageRoutingModule
   ]
 })
 export class HomepageModule { }
