@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
+import { CalendarioComponent } from './calendario/calendario.component';
+import { CalendarioRoutingModule } from './calendario-routing.module';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    CalendarioComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    CalendarioRoutingModule
   ]
 })
 export class CalendarioModule { }
