@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RosaModule } from './modules/rosa/rosa.module';
 import { CalendarioModule } from './modules/calendario/calendario.module';
 import { StoriaModule } from './modules/storia/storia.module';
+import { HomepageModule } from './modules/homepage/homepage.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,7 +21,8 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
     SharedModule,
     RosaModule,
     CalendarioModule,
-    StoriaModule
+    StoriaModule,
+    HomepageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
