@@ -1,0 +1,88 @@
+{
+    "rosa": [
+        {
+            "id": 1,
+            "number": 1,
+            "name": "Alex",
+            "surname": "Meret",
+            "position": "portiere"
+        },
+        {
+            "id": 2,
+            "number": 25,
+            "name": "David",
+            "surname": "Ospina",
+            "position": "portiere"
+        },
+        {
+            "id": 3,
+            "number": 12,
+            "name": "Davide",
+            "surname": "Marfella",
+            "position": "portiere"
+        },
+        {
+            "id": 4,
+            "number": 26,
+            "name": "Kalidou",
+            "surname": "Koulibaly",
+            "position": "difensore"
+        },
+        {
+            "id": 5,
+            "number": 13,
+            "name": "Amir",
+            "surname": "Rrahmani",
+            "position": "difensore"
+        },
+        {
+            "id": 6,
+            "number": 44,
+            "name": "Konstantinos",
+            "surname": "Manolas",
+            "position": "difensore"
+        },
+        {
+            "id": 7,
+            "number": 5,
+            "name": "Juan",
+            "surname": "Jesus",
+            "position": "difensore"
+        },
+        {
+            "id": 8,
+            "number": 6,
+            "name": "Mario",
+            "surname": "Rui",
+            "position": "difensore"
+        },
+        {
+            "id": 9,
+            "number": 31,
+            "name": "Faouzi",
+            "surname": "Ghoulam",
+            "position": "difensore"
+        },
+        {
+            "id": 10,
+            "number": 22,
+            "name": "Giovanni",
+            "surname": "Di Lorenzo",
+            "position": "difensore"
+        },
+        {
+            "id": 11,
+            "number": 2,
+            "name": "Kevin",
+            "surname": "Malcuit",
+            "position": "difensore"
+        },
+        {
+            "id": 12,
+            "number": 59,
+            "name": "Alessandro",
+            "surname": "Zanoli",
+            "position": "difensore"
+        }
+    ]
+}

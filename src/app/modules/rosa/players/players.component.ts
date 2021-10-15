@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { IPlayers } from 'src/app/models/IPlayers';
+import { PlayersService } from 'src/app/services/players.service';
 
 @Component({
   selector: 'sscn-players',
@@ -7,7 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayersComponent implements OnInit {
 
-  constructor() { }
+  apiPlayers: Observable<IPlayers[]>;
+
+  constructor(private playerService: PlayersService) { 
+    this.apiPlayers = this.playerService.getPlayers();
+  }
 
   ngOnInit(): void {
   }

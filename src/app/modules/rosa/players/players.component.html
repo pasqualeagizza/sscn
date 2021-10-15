@@ -1,1 +1,18 @@
-<p>players works!</p>
+<div class="container mt-3">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Numero</th>
+                <th>Nome</th>
+                <th>Ruolo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of apiPlayers | async">
+                <td> {{ p.number }}</td>
+                <td> {{ p.name | titlecase }} {{ p.surname | titlecase }}</td>
+                <td> {{ p.position | titlecase}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
