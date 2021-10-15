@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RosaModule } from './modules/rosa/rosa.module';
+import { CalendarioModule } from './modules/calendario/calendario.module';
+import { StoriaModule } from './modules/storia/storia.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,7 +17,10 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    RosaModule,
+    CalendarioModule,
+    StoriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
